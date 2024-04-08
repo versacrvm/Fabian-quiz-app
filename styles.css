@@ -4,11 +4,6 @@
   padding: 0;
 }
 
-/* nav {
-  background-color: white;
-  padding: 10px 20px;
-} */
-
 h1 {
   text-align: center;
   color: black;
@@ -33,6 +28,7 @@ button {
   background-color: white;
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
   text-decoration: underline;
   border: 3px;
   border-radius: 2px;
@@ -75,8 +71,9 @@ footer {
 }
 
 .quizcard {
+  position: relative;
   text-align: center;
-  border: 2px solid white;
+  border: 3px solid white;
   border-radius: 10px;
   padding: 30px;
   margin: 70px;
@@ -86,10 +83,17 @@ footer {
 }
 
 .bookmark_transparent {
-  position: relative;
+  position: absolute;
   height: 40px;
-  top: 130px;
-  right: -140px;
+  top: 200px;
+  right: 20px;
+}
+
+.bookmark_filled {
+  position: absolute;
+  height: 40px;
+  top: 200px;
+  right: 20px;
 }
 
 .home {
