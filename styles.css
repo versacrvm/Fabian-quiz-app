@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: white;
+  padding: 10px 20px;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 1px solid white;
+}
+
+p {
+    color: white;
+}
+
+body {
+  background-image: url(./resources/background.png);
+  background-size: 127%;
+  background-attachment: fixed;
+}
+
+.navbar{
+  background-color: white;
+  text-align: center;
+  width: 100%
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+}
+
+.quizcard {
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 20px;
+  width: 70%;
+}
+
+.quizcardcontainer {;
+    
+}
+
+.home {
+  width: 40px;
+  height: auto;
+}
+
+.bookmark {
+  width: 40px;
+  height: auto;
+}
+
+.profile {
+  width: 40px;
+  height: auto;
+}
