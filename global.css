@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 1px solid white;
+  padding: 10px 15px;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+body {
+  width: 375px;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./resources/background.png);
+  background-size: 130%;
+  background-attachment: fixed;
+  align-items: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
