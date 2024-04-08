@@ -9,7 +9,6 @@
   padding: 10px 20px;
 } */
 
-
 h1 {
   text-align: center;
   color: black;
@@ -24,58 +23,73 @@ h1 {
 }
 
 p {
-    color: white;
-    font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
+  color: white;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
 }
 
 button {
-    background-color: transparent;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: underline;
-    border: 3px;
-    border-radius: 10px;
-    cursor: pointer;
-
+  background-color: transparent;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
+  border: 3px;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
+aside {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  position: relative;
+  top: -120px;
+  left: 80px;
+  color: white;
+}
 
 body {
+  flex-direction: column;
+  align-items: center;
   background-image: url(./resources/background.png);
-  background-size: 160%;
+  background-size: 130%;
   background-attachment: fixed;
+  align-items: center;
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
-
 
 .navbar {
   display: flex;
   justify-content: space-evenly;
   background-color: white;
-  text-align: center;
-  width: 100%
+  width: 100%;
   position: fixed;
   bottom: 0;
+  height: 40px;
 }
 
 .quizcard {
-flex-direction: column;
   text-align: center;
   border: 2px solid white;
   border-radius: 10px;
-  padding: 20px;
+  padding: 30px;
   margin: 60px;
+  height: 220px;
   width: auto;
+  background-color: transparent;
 }
 
+.bookmark_transparent {
+  position: relative;
+  height: 40px;
+  top: 130px;
+  right: -140px;
+}
 
 .home {
   width: 35px;
@@ -83,7 +97,7 @@ flex-direction: column;
 }
 
 .bookmark {
-  width:35px;
+  width: 35px;
   height: 35px;
 }
 
