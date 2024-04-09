@@ -1,5 +1,5 @@
 @import "./global.css";
-@import "./button.css";
-@import "./bookmark.css";
-@import "./textelements.css";
-@import "./classes.css";
+@import "./components/button.css";
+@import "./components/bookmark.css";
+@import "./components/textelements.css";
+@import "./components/classes.css";
