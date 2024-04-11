@@ -1,0 +1,14 @@
+header {
+  text-align: center;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 10px 15px;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
