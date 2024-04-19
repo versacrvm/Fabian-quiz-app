@@ -16,12 +16,30 @@
         <fieldset>
            <label for="yourQuestion">Your question:</label>
            <br>
-           <textarea class="inputField" type="text" name="yourQuestion" id="yourQuestion" placeholder="please type your question here..."></textarea>
+           <textarea 
+           maxlength = "150"
+           data-js="messageInput"
+           class="inputField" 
+           type="text" 
+           name="yourQuestion" 
+           id="yourQuestion" 
+           placeholder="please type your question here...">
+          </textarea>
+          <small class="form__character-count"><span data-js="questionCharacterCount">150</span> characters left </small>
         </fieldset>
         <fieldset>
            <label for="yourAnswer">Your answer:</label>
            <br>
-           <textarea class="inputField" type="text" name="yourAnswer" id="yourAnswer" placeholder="please type your answer here..."></textarea>
+           <textarea
+           maxlength = "150" 
+           data-js="messageInput"
+           class="inputField" 
+           type="text" 
+           name="yourAnswer" 
+           id="yourAnswer" 
+           placeholder="please type your answer here...">
+          </textarea>
+          <small class="form__character-count"><span data-js="answerCharacterCount">150</span> characters left </small>
         </fieldset>
         <fieldset>
            <label for="yourTag">Tag:</label>

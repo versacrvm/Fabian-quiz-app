@@ -1,4 +1,21 @@
 const form = document.querySelector('[data-js="form"]');
+const questionInput = document.getElementById("yourQuestion");
+const answerInput = document.getElementById("yourAnswer");
+const questionCharacterCount = document.querySelector(
+  "[data-js=questionCharacterCount]"
+);
+const answerCharacterCount = document.querySelector(
+  "[data-js=answerCharacterCount]"
+);
+const MAX_LENGTH = 150;
+
+questionInput.addEventListener("input", (e) => {
+  questionCharacterCount.textContent = MAX_LENGTH - e.target.value.length;
+});
+
+answerInput.addEventListener("input", (e) => {
+  answerCharacterCount.textContent = MAX_LENGTH - e.target.value.length;
+});
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
