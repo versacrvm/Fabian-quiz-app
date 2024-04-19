@@ -7,7 +7,7 @@ nav {
   width: 100%;
   position: fixed;
   bottom: 0;
-  height: 40px;
+  height: 50px;
 }
 
 .home {
@@ -18,6 +18,11 @@ nav {
 .bookmark {
   width: 35px;
   height: 35px;
+}
+
+.addBookmark {
+  width: 40px;
+  height: 40px;
 }
 
 .profile {
