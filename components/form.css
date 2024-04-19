@@ -26,3 +26,24 @@ form input {
   border-radius: 6px;
   border: 3px solid white;
 }
+
+form textarea {
+  height: 50px;
+  border-radius: 6px;
+  border: 3px solid white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form button {
+  gap: 80px;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 360px;
+  margin: 0 auto;
+  height: 30px;
+  width: 80px;
+  border-radius: 9px;
+}
