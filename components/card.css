@@ -5,6 +5,10 @@ p {
   font-style: italic;
 }
 
+.hidden {
+  display: none;
+}
+
 .quiz-card {
   position: relative;
   text-align: center;
@@ -31,4 +35,10 @@ p {
   height: 40px;
   top: 200px;
   right: 20px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+  margin-top: 20px;
 }
