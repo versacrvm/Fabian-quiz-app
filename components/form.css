@@ -13,7 +13,7 @@ form fieldset {
   padding: 3px;
   color: white;
   border-radius: 10px;
-  height: 100px;
+  height: 110px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -46,4 +46,54 @@ form button {
   height: 30px;
   width: 80px;
   border-radius: 9px;
+}
+
+.cardContainer {
+  position: relative;
+  text-align: center;
+  border: 3px solid white;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 70px;
+  height: 220px;
+  width: 360px;
+  background-color: transparent;
+  z-index: -1;
+}
+
+.cardButton {
+  background-color: white;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+  border: 3px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.question {
+  color: white;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
+
+.answer {
+  color: white;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  position: relative;
+  top: 70px;
+  text-align: center;
+}
+
+.tag {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  position: relative;
+  top: 110px;
+  left: -120px;
+  color: white;
 }

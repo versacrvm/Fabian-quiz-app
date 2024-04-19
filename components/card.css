@@ -5,9 +5,6 @@ p {
   font-style: italic;
 }
 
-.hidden {
-  display: none;
-}
 
 .quiz-card {
   position: relative;
