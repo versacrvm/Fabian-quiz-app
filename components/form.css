@@ -99,5 +99,8 @@ form button {
 }
 
 .form__character-count {
-  font-size: 12px;
+  font-size: 10px;
+  text-align: right;
+  margin-top: 2px;
+  margin-right: 5px;
 }

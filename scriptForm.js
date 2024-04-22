@@ -24,8 +24,8 @@ form.addEventListener("submit", (event) => {
   const answerValue = formElements.yourAnswer.value;
   const tagValue = formElements.yourTag.value;
 
-  const formData = new FormData(event.target);
-  const data = Object.fromEntries(formData);
+  //const formData = new FormData(event.target);
+  //const data = Object.fromEntries(formData);
 
   //console.log(data);
 
@@ -52,6 +52,7 @@ form.addEventListener("submit", (event) => {
   cardContainer.appendChild(answerElement);
   cardContainer.appendChild(tagElement);
   cardContainer.appendChild(cardButton);
-
   document.body.appendChild(cardContainer);
+
+  event.target.reset();
 });
