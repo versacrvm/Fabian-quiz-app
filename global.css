@@ -5,11 +5,12 @@
 }
 
 body {
-  width: 375px;
+  /*width: 375px;*/
   flex-direction: column;
   align-items: center;
   background-image: url(./resources/background.png);
   background-size: 130%;
   background-attachment: fixed;
   align-items: center;
+  margin: 0 auto;
 }
